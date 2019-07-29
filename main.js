@@ -5,8 +5,7 @@ const input = document.querySelector('.input');
 const counter = document.querySelector('.counter');
 const result = document.querySelector('.result');
 const RandomNumber = random(100); //num random hasta 100
-let clicks = 0;
-counter.innerHTML = clicks;
+let clicks = 0; //contador inicializado a 0
 
 // funcion para calcular números aleatorios max=100 //
 
@@ -28,7 +27,6 @@ function randomCompared() {
         printResult(result, 'demasiado alto');
     } else if (RandomNumber > userNumber) {
         printResult(result, 'demasiado bajo');
-        addCounter();
     } else {
         printResult(result, 'Por favor introduce un número válido');
     }
@@ -43,7 +41,7 @@ function printResult(constName, text) {
 // Función para añadir +1 en el contador
 
 function addCounter() {
-    clicks += 1;
+    clicks += 1; //el contador suma 1 cada vez que pulsamos el botón
     counter.innerHTML = clicks;
 }
 
