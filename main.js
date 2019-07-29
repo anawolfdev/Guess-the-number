@@ -5,7 +5,7 @@ const input = document.querySelector('.input');
 const counter = document.querySelector('.counter');
 const result = document.querySelector('.result');
 const RandomNumber = random(100); //num random hasta 100
-let clicks = 0; //contador inicializado a 0
+let countNumber = 0; //contador inicializado a 0
 
 // funcion para calcular números aleatorios max=100 //
 
@@ -41,8 +41,8 @@ function printResult(constName, text) {
 // Función para añadir +1 en el contador
 
 function addCounter() {
-    clicks += 1; //el contador suma 1 cada vez que pulsamos el botón
-    counter.innerHTML = clicks;
+    countNumber += 1; //el contador suma 1 cada vez que pulsamos el botón
+    counter.innerHTML = countNumber;
 }
 
 // Evento para llamar a las funciones randomCompared y addCounter //
