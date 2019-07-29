@@ -1,0 +1,30 @@
+body {
+  background-color: lightgray;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  color: blue;
+  border: solid 1px blue;
+}
+
+.game_number {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.input,
+.button {
+  margin: 10px 0;
+}
+
+.counter {
+  color: red;
+  font-size: 60px;
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
