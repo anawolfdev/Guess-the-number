@@ -1,24 +1,34 @@
 body {
-  background-color: lightgray;
+  background-color: black;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
+  color: antiquewhite;
+  font-family: monospace;
+  margin-top: 17%;
 }
 
 .result {
-  color: blue;
-  border: solid 1px blue;
+  color: lightgoldenrodyellow;
+  border: solid 1px darkred;
+  text-transform: capitalize;
 }
 
 .game_number {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
   margin: 50px 0;
 }
 .input,
 .button {
-  margin: 10px 0;
+  margin: 20px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.button {
+  border-color: chartreuse;
+  color: darkred;
 }
 
 .counter {
