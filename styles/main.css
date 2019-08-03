@@ -7,6 +7,7 @@ body {
   color: antiquewhite;
   font-family: monospace;
   margin-top: 17%;
+  font-size: 20px;
 }
 
 .result {
@@ -19,16 +20,27 @@ body {
   display: inline-block;
   margin: 50px 0;
 }
+
+.number {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 .input,
 .button {
-  margin: 20px 0;
+  margin: 30px 0;
   text-align: center;
   border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 0 0 5px;
 }
 
 .button {
   border-color: chartreuse;
   color: darkred;
+  padding: 5px 10px 0 10px;
 }
 
 .counter {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,24 +10,31 @@
 </head>
 
 <body>
+
     <div class="game">
 
-        <header>
-            <h1 class="title">Adivina el número</h1>
+        <header class="guess_number_header">
+            <h1 class="guess_number_title">Adivina el número</h1>
         </header>
 
-        <main>
+        <main class="main">
+
             <div class="game_number">
-                <h2 class="number_title">Introduce aquí tu número</h2>
-                <input id="writeNumber" class="input" type="number" />
-                <button class="button">Prueba</button>
+                <label for="write_number" class="number">Introduce aquí tu número</label>
+                <input id="write_number" class="input" type="number" placeholder="0" />
+                <button type="submit" value="test" class="button">Prueba</button>
             </div>
+
             <p class="result">Escribe un número y dale a <em>Prueba</em></p>
-            <p class="counter"></p>
+
+            <p class="counter">0</p>
+
         </main>
+
     </div>
 
     <script src="./main.js"></script>
+
 </body>
 
 </html>

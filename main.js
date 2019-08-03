@@ -18,15 +18,15 @@ function random(max) {
 function randomCompared() {
     const userNumber = parseInt(input.value);
     if (RandomNumber === userNumber) {
-        printResult(result, '¡has ganado, campeona!');
+        printResult(result, '¡has ganado, campeona🦸!');
     } else if (userNumber > 100) {
         printResult(result, 'no puede ser mayor de 100');
     } else if (userNumber < 0) {
         printResult(result, 'no puede ser menor que 0');
     } else if (RandomNumber < userNumber) {
-        printResult(result, 'demasiado alto');
+        printResult(result, 'demasiado alto🌡');
     } else if (RandomNumber > userNumber) {
-        printResult(result, 'demasiado bajo');
+        printResult(result, 'demasiado bajo🥶');
     } else {
         printResult(result, 'por favor introduce un número válido');
     }
